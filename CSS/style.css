@@ -1,0 +1,138 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Заголовок и навигация */
+header {
+    background: #121212;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 3px solid #bbe95a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #bbe95a;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn {
+    background: #bbe95a;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-section {
+    padding: 100px 20px;
+    background: #333;
+    color: #ffffff;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+}
+
+/* Основные секции */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #121212;
+}
+
+.features, .work-details, .features-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.feature, .work-step, .feature-item {
+    background: #333;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.feature-item h3, .work-step h3, .feature h3 {
+    color: #bbe95a;
+}
+
+/* Footer */
+footer {
+    background: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 3px solid #bbe95a;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #bbe95a;
+    text-decoration: none;
+}
+
+/* FAQ Section */
+.faq-item {
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item h3 {
+    color: #bbe95a;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
